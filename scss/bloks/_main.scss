@@ -1,0 +1,28 @@
+main {
+  // background: linear-gradient($pink 0%, $violet 100%);
+  background: $gradient;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-wrapper {
+  max-width: 400px;
+  margin: 70px auto;
+  padding: 25px 30px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+  background: $white;
+  box-shadow: 0px 6px 15px $lightbshadow;
+
+  @media screen and (max-width: 768px) {
+    margin: 10px auto;
+    padding: 15px 20px;
+  }
+}
+
+.player-wrapper i {
+  cursor: pointer;
+}

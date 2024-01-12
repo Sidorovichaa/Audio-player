@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-main;
+    background-color: $white;
+    color: $black;
+    font-size: 16px;
+    height: 100%;
+    //overflow-y: hidden;
+    //scroll-behavior: smooth;
+}
+
+a {
+    color: $white;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: $accent;
+        cursor: pointer;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1450px;
+    //border: 1px solid orange;
+}
+
+
+// .none {
+//     /* Contain text within 1px box*/
+//     height: 1px;
+//     overflow: hidden;
+//     width: 1px;
+
+//     /* Keep the layout*/
+//     position: absolute;
+
+//     /* Remove any visible trace (e.g. background color)*/
+//     clip: rect(1px 1px 1px 1px); /*IE6, IE7*/
+//     clip: rect(1px, 1px, 1px, 1px);
+//     clip-path: inset(50%);
+
+//     /* Prevent the screen reader to skip spaces between words*/
+//     white-space: nowrap;
+// }
+
+
+
